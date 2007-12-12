@@ -1,7 +1,7 @@
 %define	oname	pydance
 %define	name	%{oname}-music
 %define	version	1.0
-%define release 4mdk
+%define release %mkrel 4
 %define	Summary	Songs and step patterns for PyDDR
 
 Name:		%{name}
