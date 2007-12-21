@@ -16,6 +16,7 @@ BuildArch:	noarch
 Requires:	%{oname}
 Provides:	pyddr-music
 Obsoletes:	pyddr-music
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 PyDDR is a simulator of the popular arcade game "Dance Dance Revolution",
