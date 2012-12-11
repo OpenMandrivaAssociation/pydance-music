@@ -39,3 +39,40 @@ tar -xjf %{SOURCE0} -C $RPM_BUILD_ROOT%{_gamesdatadir}/%{oname}/songs
 %defattr(644,root,root,755)
 %{_gamesdatadir}/%{oname}/songs/*
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0-9mdv2010.0
++ Revision: 433737
+- rebuild
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-7mdv2009.0
++ Revision: 259418
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-6mdv2009.0
++ Revision: 247261
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 1.0-4mdv2008.1
++ Revision: 125796
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import pydance-music
+
+
+* Mon Feb 07 2005 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.0-4mdk
+- rebuild
+
+* Tue Jan 13 2004 Guillaume Cottenceau <gc@mandrakesoft.com> 1.0-3mdk
+- update to latest stuff that will work with pydance-0.8.4
+
+* Wed Jul 30 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 1.0-2mdk
+- name change to pydance
+
+* Thu Apr 10 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 1.0-1mdk
+- initial release
