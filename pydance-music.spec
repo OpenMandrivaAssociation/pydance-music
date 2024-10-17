@@ -8,7 +8,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 License:	MIT
-Url:		http://icculus.org/pyddr/get.php
+Url:		https://icculus.org/pyddr/get.php
 Source0:	%{name}.tar.bz2
 Group:		Games/Other
 Summary:	%{Summary}
